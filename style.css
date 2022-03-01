@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+
+}
+.container{
+    width: 1300px;
+    margin: auto;
+
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+
+}
+.text-right{
+    text-align: right;
+    
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Work Sans', sans-serif;
+}
+::selection{
+    color: red;
+    background: aqua;
+}
+/* header-section */
+.header {
+	background: white;
+	padding: 3px;
+}
+.header-logo{
+    width: 40%;
+
+}
+.header-logo a{
+
+}
+.header-logo a img {
+	width: 100px;
+}
+
+.header-manu{
+    width: 60%;
+
+}
+.header-manu ul {
+    text-align: right;
+
+}
+.header-manu ul li {
+	display: inline-block;
+	padding: 10px 26px;
+}
+.header-manu ul li a {
+	text-decoration: none;
+	font-size: 28px;
+	line-height: 38px;
+
+	color: black;
+}
+/* banner section */
+
+.banner{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/677/302/small/abstract-technology-banner-background.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.banner-content{
+
+}
+.banner-content h4 {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+.banner-content h1 {
+	color: white;
+	font-size: 66px;
+	text-align: center;
+}
+
+.banner-btn a {
+	background: white;
+	padding: 10px 15px;
+	margin-top: 28px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+/* service section */
+
+.service-section{
+    background: #f7f7f7;
+    padding: 100px 0;
+
+
+}
+.service-items-section{
+    
+
+}
+.service-item-1{
+    width: 31.3%;
+    margin-right: 2%;
+    background: white;
+
+}
+.service-header {
+	padding: 36px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #767676;
+    transition: .5s;
+}
+.service-header:hover {
+    background:#e69134 ;
+    color: white;
+}
+/* .service-header:hover h2{
+    background:#e69134  ;
+} */
+.service-header h3 {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.service-header h2 {
+	font-size: 33px;
+	font-weight: 900;
+	margin: 14px 0;
+	background: #f5f5f5;
+	padding: 5px;
+    transition: .5s;
+}
+.service-header h2 span {
+	font-size: 18px;
+	font-weight: 600;
+}
+.service-header h4 {
+	font-weight: 400;
+	margin: 19px 0;
+}
+.service-header p {
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.servie-list-item {
+
+	padding: 33px;
+}
+
+
+.servie-list-item ul{
+    list-style: none;
+
+}
+.servie-list-item ul li {
+	margin: 26px 0px;
+	font-size: 27px;
+	color: #767676;
+}
+.servie-list-item ul li span i {
+	color: #e69134;
+	font-size: 34px;
+	width: 49px;
+}
+.servie-list-item:hover .service-header{
+    background: rgb(180, 41, 41) ;
+}
+
+
+.service-btn{
+;
+
+}
+.service-btn a {
+	text-decoration: none;
+	font-size: 20px;
+	box-shadow: 4px 2px 10px 0px rgba(0, 0, 255, 0.274);
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-top: 20px;
+	display: inline-block;
+}
+/* teem section */
+.teem{
+    background: white;
+    padding: 100px 0;
+}
+.teem-man-image img{
+
+}
+.teem-man {
+    width: 22.3%;
+    margin-right: 2%;
+    border: 2px solid #e69134;
+  
+}
+.teem-content{
+    padding: 10px;
+}
+.form-content h2 {
+	font-size: 46px;
+	margin: 35px;
+}
+.form input{
+    font-size: 20px;
+}
+.form-footer input {
+	width: 355px;
+	padding: 10px ;
+}
+input {
+	font-size: 20px;
+}
+form button {
+	padding: 9px 27px;
+	color: white;
+	background: #f5bd52;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 31px;
+}
+
+/* form section */
+.form-section{
+    background: #f5f5f5;
+    padding: 100px 0;
+}
